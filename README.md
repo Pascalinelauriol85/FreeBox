@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# FreeDoc
 
-Things you may want to cover:
+Allez, on va implémenter pour de vrai ce concurrent de Doctolib dont on te parle à longueur de ressource ! À toi d'être chirurgical 
 
-* Ruby version
+### Tables
 
-* System dependencies
+Docteurs
+Patients
+Spécialitées
+Villes
+RDV
+Liaison (docteur/spé)
 
-* Configuration
+### Pour test
+Ouvrir le dossier
+Faire
+ 
+Bundle install
 
-* Database creation
+Lancer
+rails db:seed
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Et lancer la console rails pour test
+rails console
